@@ -1,1 +1,123 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./assets/fonts/fonts.css";
+
+* {
+  box-sizing: border-box;
+  font-family: yekan, serif;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+*, *:active {
+  direction: rtl;
+}
+
+body {
+  background-color: #f7f8fa !important;
+  direction: rtl;
+  text-align: right;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  font-weight: unset;
+  padding-left: 10px;
+}
+
+input:focus {
+  box-shadow: none !important;
+}
+
+input::-internal-autofill-selected {
+  background-color: transparent !important;
+  background-image: none !important;
+  color: inherit !important;
+}
+
+::placeholder {
+  color: #b7b7b7 !important;
+}
+
+:-ms-input-placeholder {
+  color: #b7b7b7 !important;
+}
+
+::-ms-input-placeholder {
+  color: #b7b7b7 !important;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #b7b7b7 !important;
+}
+
+textarea:-moz-placeholder {
+  color: #b7b7b7 !important;
+}
+
+textarea::-moz-placeholder {
+  color: #b7b7b7 !important;
+}
+
+textarea:-ms-input-placeholder {
+  color: #b7b7b7 !important;
+}
+
+textarea::placeholder {
+  color: #b7b7b7 !important;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #b7b7b7 !important;
+}
+
+/* WebKit, Blink, Edge */
+.form-control:-moz-placeholder {
+  color: #b7b7b7 !important;
+}
+
+/* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder {
+  color: #b7b7b7 !important;
+}
+
+/* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder {
+  color: #b7b7b7 !important;
+}
+
+/* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder {
+  color: #b7b7b7 !important;
+}
+
+/* Microsoft Edge */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+strong {
+  font-family: "yekanBold", serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
