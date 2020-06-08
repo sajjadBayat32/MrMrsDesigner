@@ -52,6 +52,10 @@
   border-color: #1f1f1f;
 }
 
+.social-medias {
+  text-align: left;
+}
+
 .social-medias ul li a {
   display: flex;
   -ms-flex-pack: center;
@@ -62,10 +66,9 @@
   transition: all .4s ease;
   overflow: hidden;
   font-size: 18px;
-  width: 30px;
-  height: 30px;
   border-radius: 48px;
   color: #1f1f1f;
+  padding: 5px;
   background-color: transparent;
   border: 0 none transparent;
 }
