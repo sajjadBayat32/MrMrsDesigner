@@ -1,0 +1,70 @@
+.section-1-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0;
+  background-origin: border-box;
+  border: 0 transparent;
+  border-radius: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+  transition-duration: 0.4s;
+  transition-property: background-color, border-color;
+  background-size: cover;
+  background: transparent url('../../assets/images/bg-01.jpg') repeat-x top center;
+}
+
+.image-header-space {
+  padding-bottom: 75px;
+  padding-top: 40px;
+}
+
+.image-header-block {
+  height: 135px;
+}
+
+.image-middle-block {
+  height: 320px;
+}
+
+.image-divider-line {
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: right;
+}
+
+.image-divider-line .divider-line {
+  margin: 0;
+  display: inline-block;
+  border-top: 2px solid #1f1f1f;
+  max-width: 100%;
+  width: 100px;
+}
+
+.image-title-space {
+  padding-bottom: 15px;
+  padding-right: 40px;
+}
+
+.image-title p {
+  font-size: 70px;
+  line-height: 1.2;
+  text-align: right;
+  color: #000;
+}
+
+.image-title:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image-footer-space {
+  padding: 15px 40px 40px;
+}
+
+.image-footer-block {
+  height: 25px;
+}
