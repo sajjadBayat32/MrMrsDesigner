@@ -7,6 +7,7 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 .divider {
@@ -18,15 +19,9 @@
 .divider hr {
   max-width: 100%;
   width: 70px;
-  border-top-width: 2px;
-  border-top-style: solid;
-  border-top-color: #1f1f1f;
+  border-top: 2px solid #1f1f1f;
   margin: 0;
   display: inline-block;
-}
-
-.header-container {
-  padding-right: 15px;
 }
 
 .header {

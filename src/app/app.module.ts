@@ -15,6 +15,9 @@ import { HomeSection1Component } from './home-section1/home-section1.component';
 import { HomeSection2Component } from './home-section2/home-section2.component';
 import { HomeSection3Component } from './home-section3/home-section3.component';
 import { HomeSection7Component } from './home-section7/home-section7.component';
+import { HomeSection5Component } from './home-section5/home-section5.component';
+import { HomeSection6Component } from './home-section6/home-section6.component';
+import { FooterComponent } from './footer/footer.component';
 
 registerLocaleData(en);
 
@@ -26,7 +29,10 @@ registerLocaleData(en);
     HomeSection1Component,
     HomeSection2Component,
     HomeSection3Component,
-    HomeSection7Component
+    HomeSection7Component,
+    HomeSection5Component,
+    HomeSection6Component,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
