@@ -14,6 +14,7 @@ import {NgZorroModule} from './ng-zorro.module';
 import { HomeSection1Component } from './home-section1/home-section1.component';
 import { HomeSection2Component } from './home-section2/home-section2.component';
 import { HomeSection3Component } from './home-section3/home-section3.component';
+import { HomeSection7Component } from './home-section7/home-section7.component';
 
 registerLocaleData(en);
 
@@ -24,7 +25,8 @@ registerLocaleData(en);
     HeaderComponent,
     HomeSection1Component,
     HomeSection2Component,
-    HomeSection3Component
+    HomeSection3Component,
+    HomeSection7Component
   ],
   imports: [
     BrowserModule,
