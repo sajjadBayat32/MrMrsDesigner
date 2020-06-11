@@ -42,7 +42,7 @@
   margin-left: 35px;
 }
 
-.category-item:hover {
+.category-item:hover, .category-item.active {
   border-color: #0e0e0e;
   background-color: transparent;
 }

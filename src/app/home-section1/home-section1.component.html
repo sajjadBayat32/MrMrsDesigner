@@ -10,13 +10,13 @@
           </div>
         </div>
         <div class="divider-container">
-          <div class="divider-line">
+          <div class="divider-line" [ngClass]="{'active': load_elements.line.load}">
             <hr>
           </div>
 
         </div>
         <div class="image-title-space">
-          <div class="image-title">
+          <div class="image-title" [ngClass]="{'active': load_elements.title.load}">
             <p>عکس‌ها زنده‌اند</p>
           </div>
         </div>

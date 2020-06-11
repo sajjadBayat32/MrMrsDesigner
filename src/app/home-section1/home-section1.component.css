@@ -1,3 +1,23 @@
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1.0;
+  }
+}
+
+@keyframes increaseWidth {
+  0% {
+    width: 0
+  }
+  100% {
+    width: 120px
+  }
+}
+
 .section-1-container {
   display: -ms-flexbox;
   display: flex;
@@ -37,12 +57,29 @@
 }
 
 .divider-line hr {
-  width: 120px;
+  width: 0;
+  transition: width 1.4s ease-in;
+}
+
+.divider-line.active hr {
+  width: 130px;
 }
 
 .image-title-space {
   padding-bottom: 15px;
   padding-right: 40px;
+}
+
+.image-title {
+  position: relative;
+  top: 35px;
+  opacity: 0;
+  transition: opacity .7s ease-in, top .8s ease-in;
+}
+
+.image-title.active {
+  opacity: 1.0;
+  top: 0;
 }
 
 .image-title p {

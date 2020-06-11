@@ -7,9 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeSection1Component implements OnInit {
 
+  load_elements = {
+    title: {
+      delay: 700,
+      load: false
+    },
+    line: {
+      delay: 0,
+      load: false
+    }
+  };
   constructor() { }
 
   ngOnInit() {
+    this.loadElements();
   }
 
+  loadElements() {
+    setTimeout(() => {this.load_elements.title.load = true; }, this.load_elements.title.delay);
+    setTimeout(() => {this.load_elements.line.load = true; });
+  }
 }

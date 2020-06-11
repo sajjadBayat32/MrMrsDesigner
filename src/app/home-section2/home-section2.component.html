@@ -10,7 +10,7 @@
                 <div class="gallery-space">
                   <div class="galley-block">
                     <div class="categories">
-                      <div class="category-item">
+                      <div class="category-item active">
                         <span>همه</span>
                       </div>
                       <div class="category-item">
@@ -37,66 +37,10 @@
                       <div class="gallery-list">
                         <div class="container-fluid">
                           <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-4" *ngFor="let i of [1,2,3,4,6,7,8,9]">
                               <div class="image-container">
                                 <a href="">
-                                  <img src="../../assets/images/gallery-img-01.jpg" alt="">
-                                </a>
-                              </div>
-                            </div>
-                            <div class="col-sm-4">
-                              <div class="image-container">
-                                <a href="">
-                                  <img src="../../assets/images/gallery-img-02.jpg" alt="">
-                                </a>
-                              </div>
-                            </div>
-                            <div class="col-sm-4">
-                              <div class="image-container">
-                                <a href="">
-                                  <img src="../../assets/images/gallery-img-03.jpg" alt="">
-                                </a>
-                              </div>
-                            </div>
-                            <div class="col-sm-4">
-                              <div class="image-container">
-                                <a href="">
-                                  <img src="../../assets/images/gallery-img-01.jpg" alt="">
-                                </a>
-                              </div>
-                            </div>
-                            <div class="col-sm-4">
-                              <div class="image-container">
-                                <a href="">
-                                  <img src="../../assets/images/gallery-img-02.jpg" alt="">
-                                </a>
-                              </div>
-                            </div>
-                            <div class="col-sm-4">
-                              <div class="image-container">
-                                <a href="">
-                                  <img src="../../assets/images/gallery-img-03.jpg" alt="">
-                                </a>
-                              </div>
-                            </div>
-                            <div class="col-sm-4">
-                              <div class="image-container">
-                                <a href="">
-                                  <img src="../../assets/images/gallery-img-01.jpg" alt="">
-                                </a>
-                              </div>
-                            </div>
-                            <div class="col-sm-4">
-                              <div class="image-container">
-                                <a href="">
-                                  <img src="../../assets/images/gallery-img-02.jpg" alt="">
-                                </a>
-                              </div>
-                            </div>
-                            <div class="col-sm-4">
-                              <div class="image-container">
-                                <a href="">
-                                  <img src="../../assets/images/gallery-img-03.jpg" alt="">
+                                  <img src="../../assets/gallery/{{i}}.jpg" alt="">
                                 </a>
                               </div>
                             </div>
