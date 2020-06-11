@@ -1,5 +1,8 @@
 .header-container {
-  padding: initial;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background: rgba(115,171,229,0.45);
 }
 
 .header {
@@ -7,9 +10,17 @@
   /*margin-left: 30px;*/
 }
 
+.menu {
+  text-align: center;
+}
+
 .menu, .social-medias {
   padding-bottom: 30px;
   padding-top: 30px;
+}
+
+.menu ul {
+  direction: ltr;
 }
 
 .menu ul, .social-medias ul {
@@ -24,32 +35,35 @@
 }
 
 .menu ul li:not(:last-child) {
-  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .social-medias ul li:not(:last-child) {
-  margin-left: 27px;
+  margin-left: 20px;
 }
 
 .menu ul li a {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
   position: relative;
   display: block;
   text-align: left;
   transition: .3s;
   z-index: 1;
-  border-bottom: 1px solid;
   padding: 3px 0;
-  color: #1f1f1f;
+  color: #fff;
   text-decoration: none;
   border-color: transparent;
 }
 
 
 .menu ul li:hover a {
-  color: #1f1f1f;
-  border-color: #1f1f1f;
+  text-shadow: 1px 1px #000000;
+}
+
+.menu ul li i {
+  position: relative;
+  top: -6px;
 }
 
 .social-medias {
@@ -66,15 +80,14 @@
   transition: all .4s ease;
   overflow: hidden;
   font-size: 18px;
-  border-radius: 48px;
-  color: #1f1f1f;
-  padding: 5px;
+  border-radius: 4px;
+  color: #fff;
+  padding: 2px;
   background-color: transparent;
   border: 0 none transparent;
 }
 
-.social-medias ul li a:hover {
-  color: #ffffff;
-  background-color: #1f1f1f;
-  border-color: transparent;
+.social-medias ul li a.have-bg {
+  color: #74B0FF;
+  background-color: #fff;
 }
