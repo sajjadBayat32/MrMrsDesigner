@@ -9,7 +9,7 @@ export class HomeSection1Component implements OnInit {
 
   load_elements = {
     title: {
-      delay: 700,
+      delay: 2500,
       load: false
     },
     line: {

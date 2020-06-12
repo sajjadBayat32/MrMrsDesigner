@@ -1,6 +1,6 @@
 @keyframes slideInFromBottom {
   0% {
-    transform: translateY(40px);
+    transform: translateY(60px);
     opacity: 0;
   }
   100% {
@@ -19,19 +19,10 @@
 }
 
 .section-1-container {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  padding: 0;
-  height: 100%;
-  transition-property: background-color, border-color;
-  background-size: cover;
-  background: transparent url('../../assets/picture/Divine-Smile-fade2.jpg') repeat-x top center;
 }
 
 .image-header-space {
-  padding-bottom: 75px;
+  padding-bottom: 140px;
   padding-top: 40px;
 }
 
@@ -40,7 +31,17 @@
 }
 
 .image-middle-block {
-  height: 320px;
+  height: 220px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-middle-block p {
+  margin: 0;
+  font-size: 50px;
+  color: #fff;
+  font-family: 'yekanBold', serif;
 }
 
 .divider-container {
@@ -61,15 +62,15 @@
 }
 
 .image-title-space {
-  padding-bottom: 15px;
+  padding-bottom: 50px;
   padding-right: 40px;
 }
 
 .image-title {
   position: relative;
-  top: 35px;
+  top: 65px;
   opacity: 0;
-  transition: opacity .7s ease-in, top .8s ease-in;
+  transition: opacity 1s ease-in, top 1s ease-in;
 }
 
 .image-title.active {
@@ -78,10 +79,18 @@
 }
 
 .image-title p {
-  font-size: 70px;
   line-height: 1.2;
-  text-align: right;
-  color: #000;
+  text-align: center;
+  color: #4B6888;
+}
+
+.image-title .first-text {
+  font-size: 70px;
+  margin-bottom: 25px;
+}
+
+.image-title .second-text {
+  font-size: 20px;
 }
 
 .image-title:after {
@@ -90,10 +99,20 @@
   clear: both;
 }
 
+.before-footer {
+  height: 80px;
+}
+
 .image-footer-space {
-  padding: 15px 40px 40px;
+  padding: 40px 40px 10px;
 }
 
 .image-footer-block {
   height: 25px;
+}
+
+.image-footer-block p {
+  margin: 0;
+  color: #4B6888;
+  font-size: 16px;
 }

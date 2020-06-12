@@ -21,13 +21,14 @@
   border: 0 transparent;
   border-radius: 0;
   transition-property: background-color,border-color,box-shadow!important;
-  background: #313131 no-repeat 0 0;
   transition-duration: 0.4s;
+  top: -70px;
+  position: relative;
+
 }
 
 .about-header {
   padding-bottom: 40px;
-  padding-top: 75px;
   justify-content: center;
 }
 
@@ -41,12 +42,11 @@
 }
 
 .section-header p {
-  color: #ffffff;
+  color: #4B6888;
+  font-family: 'yekanBold', serif;
 }
 
 .about-body {
-  padding-right: 75px;
-  padding-left: 75px;
   padding-bottom: 15px;
 }
 
@@ -57,11 +57,14 @@
 
 .body p {
   font-weight: 400;
-  color: #ffffff;
-  font-size: 23px;
-  line-height: 1.4;
+  color: #4B6888;
+  font-size: 18px;
+  line-height: 2;
   letter-spacing: 0;
   transition: .3s;
+  font-family: 'yekanBold', serif;
+  text-align: justify;
+  margin: 0;
 }
 
 .about-footer .col-sm-10, .about-footer .col-sm-2 {
