@@ -1,0 +1,85 @@
+.col-sm-7, .col-sm-5 {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-sm-2, .col-sm-10 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.about-block {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-origin: border-box;
+  background-size: auto;
+  border: 0 transparent;
+  border-radius: 0;
+  transition-property: background-color,border-color,box-shadow!important;
+  transition-duration: 0.4s;
+  top: 30px;
+  position: relative;
+
+}
+
+.about-header {
+  padding-bottom: 40px;
+  justify-content: center;
+}
+
+.col-xs-2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.divider-line hr {
+  border-top: 2px solid #ffffff;
+}
+
+.section-header p {
+  color: #4B6888;
+  font-family: 'yekanBold', serif;
+}
+
+.about-body {
+  padding-bottom: 15px;
+}
+
+.body {
+  padding: 0 1px;
+  transition: .3s;
+}
+
+.body p {
+  font-weight: 400;
+  color: #4B6888;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0;
+  transition: .3s;
+  font-family: 'yekanBold', serif;
+  text-align: justify;
+  margin: 0;
+}
+
+.about-footer .col-sm-10, .about-footer .col-sm-2 {
+  padding: 0;
+}
+
+.footer {
+  padding: 15px 75px 75px;
+}
+
+.footer p {
+  font-weight: 300;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0;
+}
