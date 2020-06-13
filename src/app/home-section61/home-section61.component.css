@@ -1,0 +1,53 @@
+.tools-header-container-header {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.tools-header .col-xs-3, .tools-header .col-xs-9 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.tool-container {
+}
+
+.tools-space {
+  width: 100%;
+}
+
+.tool-icon {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.tool-icon span {
+  font-size: 85px;
+  line-height: 0;
+}
+
+.tool-title-space {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+.tool-title p {
+  color: #1f1f1f;
+  font-size: 22px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.tool-container:hover {
+  background: #313131;
+  transition: 0.3s;
+  color: #f7f8fa;
+}
+
+.tool-container:hover p {
+  color: #f7f8fa;
+  transition: 0.3s;
+}
