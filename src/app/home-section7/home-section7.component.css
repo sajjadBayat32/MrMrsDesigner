@@ -1,3 +1,10 @@
+.header p {
+  font-size: 50px;
+  margin: 0;
+  font-family: 'yekanBold', serif;
+  color: #fff;
+}
+
 .events-header {
   padding-bottom: 40px;
   padding-top: 40px;
@@ -26,7 +33,43 @@
 
 .event-title {
   padding: 20px 0;
-  background: #e8e8e8;
+  background: #395472;
   font-size: 24px;
-  color: #1f1f1f;
+  color: #fff;
+}
+
+.contact-list {
+  list-style: none;
+  display: inline-block;
+  text-align: left;
+  left: 38px;
+  position: relative;
+}
+
+.contact-list li {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 25px;
+  direction: ltr;
+}
+
+.contact-list li span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: all .4s ease;
+  overflow: hidden;
+  font-size: 24px;
+  border-radius: 4px;
+  color: #fff;
+  margin-right: 30px;
+  padding: 2px;
+  background-color: transparent;
+  border: 0 none transparent;
+}
+
+.contact-list li span.have-bg {
+  color: rgba(0,0,0,0.7);
+  background-color: #fff;
 }

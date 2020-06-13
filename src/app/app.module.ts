@@ -16,11 +16,12 @@ import { HomeSection21Component } from './home-section21/home-section21.componen
 import { HomeSection2Component } from './home-section2/home-section2.component';
 import { HomeSection7Component } from './home-section7/home-section7.component';
 import { HomeSection5Component } from './home-section5/home-section5.component';
-import { HomeSection6Component } from './home-section6/home-section6.component';
+import { HomeSection61Component } from './home-section61/home-section61.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeSection41Component } from './home-section41/home-section41.component';
 import { HomeSection3Component } from './home-section3/home-section3.component';
 import { HomeSection4Component } from './home-section4/home-section4.component';
+import { HomeSection6Component } from './home-section6/home-section6.component';
 
 registerLocaleData(en);
 
@@ -34,11 +35,12 @@ registerLocaleData(en);
     HomeSection2Component,
     HomeSection7Component,
     HomeSection5Component,
-    HomeSection6Component,
+    HomeSection61Component,
     FooterComponent,
     HomeSection41Component,
     HomeSection3Component,
-    HomeSection4Component
+    HomeSection4Component,
+    HomeSection6Component
   ],
   imports: [
     BrowserModule,

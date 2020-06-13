@@ -6,6 +6,7 @@
   font-size: 50px;
   margin: 0;
   font-family: 'yekanBold', serif;
+  color: #22495a;
 }
 
 .swiper-container {
@@ -16,6 +17,7 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
+  height: 640px;
   background: #fff;
   display: -webkit-box;
   display: -ms-flexbox;

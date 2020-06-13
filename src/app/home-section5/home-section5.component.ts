@@ -8,6 +8,17 @@ import Swiper from 'swiper';
 })
 export class HomeSection5Component implements OnInit {
 
+  titles = [
+    'سایزهای مختلف',
+    'نحوه قرارگیری عکس در آلبوم',
+    'نحوه ثبت سفارش',
+    'عقد‌وعروسی',
+    'کودک',
+    'بزرگ‌سال',
+    'لوازم جانبی',
+    'ویژه',
+    'سفر',
+  ];
   constructor() { }
 
   ngOnInit() {

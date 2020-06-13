@@ -19,7 +19,6 @@ export class HomeComponent implements OnInit {
       spaceBetween: 0,
       touchRatio: 0,
       mousewheel: true,
-      speed: 1500,
     });
     this.slideListener();
   }
