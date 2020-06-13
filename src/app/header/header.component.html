@@ -30,16 +30,16 @@
                 <div class="menu">
                   <ul>
                     <li>
-                      <a href="">
+                      <a href="" [ngClass]="{'active': activePage === 0 || activePage === 1}">
                         Home
                         <i nz-icon nzType="ng-zorro:house"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="">About us</a>
+                      <a href="" [ngClass]="{'active': activePage === 2}">About us</a>
                     </li>
                     <li>
-                      <a href="">What's up</a>
+                      <a href="" [ngClass]="{'active': activePage === 3}">What's up</a>
                     </li>
                     <li>
                       <a href="">Products</a>

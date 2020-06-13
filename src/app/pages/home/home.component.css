@@ -4,14 +4,15 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.swiper-wrapper {
+  /*transition-duration: 1500ms !important;*/
+}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
 
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-justify-content: center;
@@ -21,6 +22,7 @@
   -webkit-align-items: center;
   align-items: center;
   background-size: cover;
+  padding: 87px 0;
 }
 
 .swiper-slide:nth-child(1) {
@@ -28,6 +30,11 @@
 }
 
 .swiper-slide:nth-child(2) {
+  background: transparent url('../../../assets/picture/eetg.jpg') no-repeat top center;
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(3) {
   background: transparent url('../../../assets/picture/eetg.jpg') no-repeat top center;
   background-size: cover;
 }

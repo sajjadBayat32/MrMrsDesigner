@@ -12,12 +12,14 @@ import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './header/header.component';
 import {NgZorroModule} from './ng-zorro.module';
 import { HomeSection1Component } from './home-section1/home-section1.component';
+import { HomeSection21Component } from './home-section21/home-section21.component';
 import { HomeSection2Component } from './home-section2/home-section2.component';
-import { HomeSection3Component } from './home-section3/home-section3.component';
 import { HomeSection7Component } from './home-section7/home-section7.component';
 import { HomeSection5Component } from './home-section5/home-section5.component';
 import { HomeSection6Component } from './home-section6/home-section6.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeSection41Component } from './home-section41/home-section41.component';
+import { HomeSection3Component } from './home-section3/home-section3.component';
 import { HomeSection4Component } from './home-section4/home-section4.component';
 
 registerLocaleData(en);
@@ -28,12 +30,14 @@ registerLocaleData(en);
     HomeComponent,
     HeaderComponent,
     HomeSection1Component,
+    HomeSection21Component,
     HomeSection2Component,
-    HomeSection3Component,
     HomeSection7Component,
     HomeSection5Component,
     HomeSection6Component,
     FooterComponent,
+    HomeSection41Component,
+    HomeSection3Component,
     HomeSection4Component
   ],
   imports: [

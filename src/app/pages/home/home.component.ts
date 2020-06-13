@@ -7,20 +7,28 @@ import Swiper from 'swiper';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  p_swiper: Swiper;
+  slide_num;
 
   constructor() { }
 
   ngOnInit() {
-    const swiper = new Swiper('.swiper-container', {
+    this.p_swiper = new Swiper('.page-sections', {
       direction: 'vertical',
       slidesPerView: 1,
       spaceBetween: 0,
       touchRatio: 0,
       mousewheel: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
+      speed: 1500,
+    });
+    this.slideListener();
+  }
+
+  slideListener() {
+    const self = this;
+    // @ts-ignore
+    this.p_swiper.on('slideChange', function(e) {
+      self.slide_num = self.p_swiper.activeIndex;
     });
   }
 

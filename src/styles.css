@@ -117,11 +117,24 @@ a, a:hover {
 }
 
 .swiper-button-next, .swiper-button-prev {
-  color: #2d2d2d !important;
+  color: rgb(68, 114, 96) !important;
 }
 
-.swiper-pagination-bullet-active {
-  background: #2d2d2d !important;
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  right: 30px;
+  left: auto;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  left: 30px;
+  right: auto;
+}
+
+.whats-up-pagination .swiper-pagination-bullet-active {
+  background: #4B6888 !important;
+  width: 9px;
+  height: 9px;
+  box-shadow: 0 3px 8px #375474;
 }
 
 /*******************************title side line*******************************/
