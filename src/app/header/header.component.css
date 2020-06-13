@@ -51,14 +51,13 @@
   transition: .3s;
   z-index: 1;
   padding: 3px 0;
-  font-family: auto, serif;
   color: #fff;
   text-decoration: none;
   border-color: transparent;
 }
 
 
-.menu ul li:hover a {
+.menu ul li:hover a, .menu ul li a.active {
   text-shadow: 1px 1px #000000;
 }
 
@@ -89,7 +88,7 @@
 }
 
 .social-medias ul li a.have-bg {
-  color: #74B0FF;
+  color: rgba(0,0,0,0.4);
   background-color: #fff;
 }
 
@@ -109,7 +108,7 @@
 
 .search-space input {
   color: #fff;
-  background: #AEC9EE;
+  background: rgba(0,0,0,0.16);
   text-align: left;
   display: inline-block;
   width: 220px;

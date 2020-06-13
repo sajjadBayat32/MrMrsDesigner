@@ -1,10 +1,11 @@
-<app-header></app-header>
+<app-header [activePage]="slide_num"></app-header>
 
-<div class="swiper-container">
+<div class="swiper-container page-sections">
   <div class="swiper-wrapper">
     <div class="swiper-slide"><app-home-section1></app-home-section1></div>
-    <div class="swiper-slide"><app-home-section3></app-home-section3></div>
     <div class="swiper-slide"><app-home-section2></app-home-section2></div>
+    <div class="swiper-slide"><app-home-section3></app-home-section3></div>
+    <div class="swiper-slide"><app-home-section4></app-home-section4></div>
   </div>
   <!-- Add Pagination -->
   <!--<div class="swiper-pagination"></div>-->
@@ -21,7 +22,7 @@
   <!--</div>-->
 
   <!--<div class="section-3">-->
-    <!--<app-home-section3></app-home-section3>-->
+    <!--<app-home-section2></app-home-section2>-->
   <!--</div>-->
 
   <!--<div class="section-5">-->

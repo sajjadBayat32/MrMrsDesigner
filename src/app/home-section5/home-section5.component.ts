@@ -15,24 +15,7 @@ export class HomeSection5Component implements OnInit {
   }
 
   createSlider() {
-    const swiper = new Swiper('.swiper-container', {
-      spaceBetween: 0,
-      effect: 'fade',
-      centeredSlides: true,
-      loop: true,
-      autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      }
-    });
+
   }
 
 }
