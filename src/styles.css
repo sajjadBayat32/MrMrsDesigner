@@ -41,12 +41,6 @@ input:focus {
   box-shadow: none !important;
 }
 
-input::-internal-autofill-selected {
-  background-color: transparent !important;
-  background-image: none !important;
-  color: inherit !important;
-}
-
 ::placeholder {
   color: #b7b7b7 !important;
 }
