@@ -22,8 +22,9 @@
   border-radius: 0;
   transition-property: background-color,border-color,box-shadow!important;
   transition-duration: 0.4s;
-  top: -70px;
+  top: 30px;
   position: relative;
+
 }
 
 .about-header {
